@@ -29,6 +29,6 @@ public class LoginController {
     }
     @GetMapping("/login")
     public ModelAndView getLoginPage() {
-        return new ModelAndView("redirect:/login.html");  // Redirect to login.html
+        return new ModelAndView("redirect:/login.html");
     }
 }
